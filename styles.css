@@ -1,0 +1,48 @@
+/* Estilização geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  /* Container flexbox */
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 200px;
+    background-color: #969393;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilização das caixas */
+  .box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .pink {
+    background-color: #f71e78;
+  }
+  
+  .purple {
+    background-color: #8f13d6;
+  }
+  
+  .blue {
+    background-color: #4d4dff;
+  }
